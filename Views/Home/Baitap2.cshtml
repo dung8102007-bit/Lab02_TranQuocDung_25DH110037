@@ -1,0 +1,147 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>baitap2</title>
+    <style type="text/css">
+        table.forum_table {
+            border-collapse: collapse; 
+            width: 100%;
+            max-width: 750px;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            border: 1px solid #dcdcdc;
+        }
+
+        th.forum_header {
+            background-color: #ededed;
+            color: #000000;
+            font-weight: bold;
+            padding: 10px;
+            border-bottom: 1px solid #dcdcdc;
+            border-right: 1px solid #dcdcdc;
+            font-size: 13px;
+        }
+
+        th.forum_header_last {
+            border-right: none; 
+        }
+
+        td.forum_cell {
+            padding: 8px 10px;
+            border-bottom: 1px solid #eeeeee;
+            border-right: 1px solid #eeeeee;
+            vertical-align: middle;
+            font-size: 13px;
+        }
+
+        td.forum_cell_last {
+            border-right: none; 
+        }
+
+        .topic_title {
+            color: #2b689c;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .topic_sub {
+            color: #333333;
+            font-size: 11px;
+            margin-top: 3px;
+        }
+
+            .topic_sub a:link, .topic_sub a:visited {
+                color: #2b689c;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+        td.col_center {
+            text-align: center;
+            font-weight: bold;
+            color: #000000;
+        }
+
+        .last_post_date {
+            color: #2b689c;
+            font-size: 11px;
+        }
+
+        .last_post_author {
+            color: #999999;
+            font-size: 11px;
+        }
+    </style>
+</head>
+<body>
+
+    <table class="forum_table">
+        <tr>
+            <th class="forum_header" style="text-align: left;">Topic</th>
+            <th class="forum_header" width="70">Posts</th>
+            <th class="forum_header" width="70">Views</th>
+            <th class="forum_header forum_header_last" width="140" style="text-align: left;">Last Post</th>
+        </tr>
+
+        <tr>
+            <td class="forum_cell">
+                🔒 <a href="#" class="topic_title">Posting Guidelines</a>
+                <div class="topic_sub">Posted in <a href="#">Please Read First!</a> by Joe Gillespie</div>
+            </td>
+            <td class="forum_cell col_center">1</td>
+            <td class="forum_cell col_center">288</td>
+            <td class="forum_cell forum_cell_last">
+                <div class="last_post_date">Dec 21, 2003</div>
+                <div class="last_post_author">by Joe Gillespie</div>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="forum_cell">
+                🔒 <a href="#" class="topic_title">Forum Rules</a>
+                <div class="topic_sub">Posted in <a href="#">Please Read First!</a> by Joe Gillespie</div>
+            </td>
+            <td class="forum_cell col_center">1</td>
+            <td class="forum_cell col_center">2023</td>
+            <td class="forum_cell forum_cell_last">
+                <div class="last_post_date">Dec 21, 2003</div>
+                <div class="last_post_author">by Joe Gillespie</div>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="forum_cell">
+                💬 <a href="#" class="topic_title">A suitable Word Template</a>
+                <div class="topic_sub">Posted in <a href="#">Web Design Software</a> by Wilson Lagg</div>
+            </td>
+            <td class="forum_cell col_center">2</td>
+            <td class="forum_cell col_center">199</td>
+            <td class="forum_cell forum_cell_last">
+                <div class="last_post_date">Mar 28, 2008</div>
+                <div class="last_post_author">by Shahzad Asif</div>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="forum_cell">
+                💬 <a href="#" class="topic_title">few HTML and CSS issues</a>
+                <div class="topic_sub">Posted in <a href="#">Layout</a> by Jade M</div>
+            </td>
+            <td class="forum_cell col_center">3</td>
+            <td class="forum_cell col_center">1</td>
+            <td class="forum_cell forum_cell_last">
+                <div class="last_post_date">Mar 28, 2008</div>
+                <div class="last_post_author">by Shahzad Asif</div>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

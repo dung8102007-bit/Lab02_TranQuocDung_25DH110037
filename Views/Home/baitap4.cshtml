@@ -1,0 +1,101 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>baitap4</title>
+    <style type="text/css">
+        table.tech_table {
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            background-color: #f2f7f9;
+            width: 100%;
+            max-width: 750px;
+        }
+
+        .table_caption {
+            text-align: right;
+            font-style: italic;
+            color: #555555;
+            padding: 8px;
+            font-size: 12px;
+        }
+
+        td.col_title {
+            font-weight: bold;
+            color: #335566;
+            text-transform: uppercase;
+            padding: 10px;
+            background-color: #e5eff2;
+            width: 25%;
+            letter-spacing: 1px;
+        }
+
+        th.tech_header {
+            background-color: #cce8ed;
+            color: #1a4d56;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ffffff;
+            width: 25%;
+            letter-spacing: 1px;
+        }
+
+        td.tech_cell {
+            background-color: #ffffff;
+            color: #555555;
+            padding: 10px;
+            border: 1px solid #e0ebed;
+        }
+    </style>
+</head>
+<body>
+
+    <table class="tech_table">
+        <tr>
+            <td colspan="4" class="table_caption">
+                Table 1: Power Mac G5 tech specs
+            </td>
+        </tr>
+        <tr>
+            <td class="col_title">CONFIGURATIONS</td>
+            <th class="tech_header">DUAL 1.8GHZ</th>
+            <th class="tech_header">DUAL 2GHZ</th>
+            <th class="tech_header">DUAL 2.5GHZ</th>
+        </tr>
+        <tr>
+            <td class="col_title">MODEL</td>
+            <td class="tech_cell">M9454LL/A</td>
+            <td class="tech_cell">M9455LL/A</td>
+            <td class="tech_cell">M9457LL/A</td>
+        </tr>
+        <tr>
+            <td class="col_title">G5 PROCESSOR</td>
+            <td class="tech_cell">Dual 1.8GHz PowerPC G5</td>
+            <td class="tech_cell">Dual 2GHz PowerPC G5</td>
+            <td class="tech_cell">Dual 2.5GHz PowerPC G5</td>
+        </tr>
+        <tr>
+            <td class="col_title">FRONTSIDE BUS</td>
+            <td class="tech_cell">900MHz per processor</td>
+            <td class="tech_cell">1GHz per processor</td>
+            <td class="tech_cell">1.25GHz per processor</td>
+        </tr>
+        <tr>
+            <td class="col_title">LEVEL2 CACHE</td>
+            <td class="tech_cell">512K per processor</td>
+            <td class="tech_cell">512K per processor</td>
+            <td class="tech_cell">512K per processor</td>
+        </tr>
+    </table>
+
+</body>
+</html>
